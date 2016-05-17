@@ -16,10 +16,10 @@ public class NewTest {
   AndroidDriver driver;
   @Test
   public void mainTest() throws MalformedURLException {
-	  	File classpathRoot = new File(System.getProperty("user.dir"));
+	  	/*File classpathRoot = new File(System.getProperty("user.dir"));
 		File appDir = new File(classpathRoot, "/App/");
-		File app = new File(appDir, "AmazonIndiaShopping_v6.4.0.300.apk");
-	
+		File app = new File(appDir, "AmazonIndiaShopping_v6.4.0.300.apk");*/
+	  	File app = new File("C:/GitRepo/AppiumdriverTest/App/amazonapp.apk");
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		//capabilities.setCapability(CapabilityType.BROWSER_NAME, ""); 
 		capabilities.setCapability("deviceName", "Test_Device");
