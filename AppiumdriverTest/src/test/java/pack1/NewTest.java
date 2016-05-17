@@ -30,7 +30,7 @@ public class NewTest {
 		capabilities.setCapability("appActivity", "com.amazon.mShop.home.HomeActivity");
 		capabilities.setCapability("avdLaunchTimeout", "120000000");
 		capabilities.setCapability("avdReadyTimeout", "120000000");
-		capabilities.setCapability("androidDeviceReadyTimeout", "200");
+		//capabilities.setCapability("androidDeviceReadyTimeout", "200");
 		
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.MINUTES);
