@@ -37,6 +37,12 @@ public class NewTest {
 	//	Thread.sleep(10000);
 		driver.quit();
   }
+  
+  @Test
+  public void secTest()
+  {
+	  Assert.fail("Failing Test CASE- Failed delibrately for testing purpose");
+  }
   @BeforeTest
   public void beforeTest() {
   }
